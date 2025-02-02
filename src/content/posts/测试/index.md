@@ -9,4 +9,7 @@ draft: false
 lang: ''
 ---
 
-# this is test 
+# 这是一个测试笔记、
+![alt text](image.png)
+123
+![alt text](image-1.png)
