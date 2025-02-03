@@ -52,7 +52,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',  // 头像路径，相对于 /src 目录。如果路径以 '/' 开头，则是相对于 /public 目录
-  name: '又木',                              // 用户名
+  name: '木又',                              // 用户名
   bio: '学海无涯，勤奋向前',                   // 个人简介
   links: [
     // {
