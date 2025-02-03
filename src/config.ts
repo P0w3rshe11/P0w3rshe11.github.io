@@ -15,13 +15,13 @@ export const siteConfig: SiteConfig = {
     fixed: false,          // 是否隐藏主题颜色选择器
   },
   banner: {
-    enable: true,         // 是否启用横幅
-    src: 'assets/images/banner1.jpg',   // 横幅图片路径，相对于 /src 目录。如果路径以 '/' 开头，则是相对于 /public 目录
+    enable: false,         // 是否启用横幅
+    src: 'assets/images/bg.jpg',   // 横幅图片路径，相对于 /src 目录。如果路径以 '/' 开头，则是相对于 /public 目录
     position: 'center',    // 横幅的位置，可选值：'top'（顶部）、'center'（居中）、'bottom'（底部），默认值是 'center'
     credit: {
       enable: true,       // 是否显示横幅图片的版权文本
       text: '',            // 版权文本
-      url: 'https://w.wallhaven.cc/full/jx/wallhaven-jxmvkp.jpg'              // 版权链接，指向原作者页面的链接（可选）
+      url: ''              // 版权链接，指向原作者页面的链接（可选）
     }
   },
   toc: {
@@ -52,7 +52,7 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatar.png',  // 头像路径，相对于 /src 目录。如果路径以 '/' 开头，则是相对于 /public 目录
-  name: '木又',                              // 用户名
+  name: '又木',                              // 用户名
   bio: '学海无涯，勤奋向前',                   // 个人简介
   links: [
     // {
