@@ -8,7 +8,7 @@ import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: 'P0w3r',          // 网站标题
-  subtitle: 'blog',         // 网站副标题
+  subtitle: '潜心学习',         // 网站副标题
   lang: 'zh_CN',           // 语言设置，'en'（英语）, 'zh_CN'（简体中文）, 'zh_TW'（繁体中文）, 'ja'（日语）, 'ko'（韩语）, 'es'（西班牙语）, 'th'（泰语）
   themeColor: {
     hue: 250,              // 主题颜色的默认色调（0到360之间），例如：红色是0，青色是200，品红是345
@@ -16,12 +16,12 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true,         // 是否启用横幅
-    src: 'assets/images/banner.jpg',   // 横幅图片路径，相对于 /src 目录。如果路径以 '/' 开头，则是相对于 /public 目录
-    position: 'center',    // 横幅的位置，可选值：'top'（顶部）、'center'（居中）、'bottom'（底部），默认值是 'center'
+    src: 'assets/images/110.png',   // 横幅图片路径，相对于 /src 目录。如果路径以 '/' 开头，则是相对于 /public 目录
+    position: 'top',    // 横幅的位置，可选值：'top'（顶部）、'center'（居中）、'bottom'（底部），默认值是 'center'
     credit: {
       enable: true,       // 是否显示横幅图片的版权文本
-      text: '',            // 版权文本
-      url: ''              // 版权链接，指向原作者页面的链接（可选）
+      text: 'Burning Skyline',            // 版权文本
+      url: 'https://www.pixiv.net/artworks/110923134'              // 版权链接，指向原作者页面的链接（可选）
     }
   },
   toc: {
