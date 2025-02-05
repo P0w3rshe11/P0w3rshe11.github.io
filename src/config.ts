@@ -42,6 +42,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,      // 首页
     LinkPreset.Archive,   // 归档
     LinkPreset.About,     // 关于
+    LinkPreset.Friends,   //友链
     // {
     //   name: 'GitHub',            // GitHub链接
     //   url: 'https://github.com/P0w3rshe11',     // 内部链接不需要包括基础路径，因为它会自动添加
