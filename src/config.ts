@@ -15,8 +15,8 @@ export const siteConfig: SiteConfig = {
     fixed: false,          // 是否隐藏主题颜色选择器
   },
   banner: {
-    enable: false,         // 是否启用横幅
-    src: 'assets/images/bg.jpg',   // 横幅图片路径，相对于 /src 目录。如果路径以 '/' 开头，则是相对于 /public 目录
+    enable: true,         // 是否启用横幅
+    src: 'assets/images/banner.jpg',   // 横幅图片路径，相对于 /src 目录。如果路径以 '/' 开头，则是相对于 /public 目录
     position: 'center',    // 横幅的位置，可选值：'top'（顶部）、'center'（居中）、'bottom'（底部），默认值是 'center'
     credit: {
       enable: true,       // 是否显示横幅图片的版权文本
@@ -29,11 +29,11 @@ export const siteConfig: SiteConfig = {
     depth: 3               // 显示目录的最大层级，1表示只显示主标题，2表示显示主标题和副标题，3表示显示更多层级的标题
   },
   favicon: [               // 留空数组将使用默认的favicon图标
-    // {
-    //   src: '/favicon/icon.png',    // favicon图标路径，相对于 /public 目录
-    //   theme: 'light',              // (可选) 主题，可以是 'light'（浅色模式）或者 'dark'（深色模式），仅在不同的浅色和深色模式下使用不同图标时才设置
-    //   sizes: '32x32',              // (可选) favicon图标的大小，设置不同大小的favicon图标时使用
-    // }
+    {
+      src: '/favicon/icon.png',    // favicon图标路径，相对于 /public 目录
+      theme: 'dark',              // (可选) 主题，可以是 'light'（浅色模式）或者 'dark'（深色模式），仅在不同的浅色和深色模式下使用不同图标时才设置
+      sizes: '32x32',              // (可选) favicon图标的大小，设置不同大小的favicon图标时使用
+    }
   ]
 }
 
